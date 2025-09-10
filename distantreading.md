@@ -1,3 +1,9 @@
+---
+layout: default
+title: Distant Reading Project
+---
+
+{% include nav.html %}
 
 
 
