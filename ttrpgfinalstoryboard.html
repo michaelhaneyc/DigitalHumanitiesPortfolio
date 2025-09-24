@@ -9,7 +9,104 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Digital Humanities Narrative Storyboard Project.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Digital Humanities Narrative Storyboard Project" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="9DF6B1C7-8C35-4A25-9440-23E6FC0AC446" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="TTRPGs" tags="" position="700,0" size="100,100">TTRPG stands for tabletop roleplaying game and games such as [[Dungeons &amp; Dragons]] or [[Daggerheart]] can be used for so much more than just an entertaining experience. They offer an opportunity to create a collaborative storytelling experience that can boost a person’s [[cognitive and personal development]].
+<tw-storydata name="Digital Humanities Narrative Storyboard Project" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="9DF6B1C7-8C35-4A25-9440-23E6FC0AC446" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* High Fantasy Harlowe Stylesheet - Midnight Blue & Gold with Ornate Frame */
+
+/* Import elegant fantasy fonts */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Crimson+Pro:wght@400;600&display=swap');
+
+/* Overall background */
+html {
+  background: radial-gradient(circle at top, #0d1b3d, #000814);
+  color: #f0e6d2;
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main passage container with ornate frame */
+tw-passage {
+  position: relative;
+  background: rgba(13, 27, 61, 0.9);
+  border: 4px solid #d4af37; /* solid gold border */
+  border-radius: 16px;
+  padding: 2.5em;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.6);
+  max-width: 850px;
+  margin: 3em auto;
+  text-align: justify;
+  animation: fadeIn 1s ease;
+  overflow: hidden;
+}
+
+/* Decorative glowing border corners */
+tw-passage::before, tw-passage::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #ffd700;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #ffd700, 0 0 20px #b8860b;
+}
+
+tw-passage::before {
+  top: -10px;
+  left: -10px;
+  border-right: none;
+  border-bottom: none;
+}
+
+tw-passage::after {
+  bottom: -10px;
+  right: -10px;
+  border-left: none;
+  border-top: none;
+}
+
+/* Optionally add extra inner corner glow */
+tw-passage::marker { display: none; }
+
+/* Headings in a glowing gold fantasy font */
+h1, h2, h3 {
+  font-family: 'Uncial Antiqua', cursive;
+  color: #ffd700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #b8860b, 0 0 12px #ffd700;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Standard passage text */
+p {
+  color: #e6ddc6;
+  margin-bottom: 1.2em;
+}
+
+/* Links styled as golden runes */
+tw-link {
+  color: #ffd700;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px dotted #b8860b;
+  transition: all 0.3s ease-in-out;
+}
+
+tw-link:hover {
+  color: #fff7c0;
+  text-shadow: 0 0 6px #ffd700, 0 0 12px #ffecb3;
+  border-bottom: 2px solid #ffd700;
+  cursor: pointer;
+}
+
+/* Sidebar UI */
+tw-sidebar {
+  background: rgba(0, 8, 20, 0.95);
+  color: #ffd700;
+  fo
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="TTRPGs" tags="" position="700,0" size="100,100">TTRPG stands for tabletop roleplaying game and games such as [[Dungeons &amp; Dragons]] or [[Daggerheart]] can be used for so much more than just an entertaining experience. They offer an opportunity to create a collaborative storytelling experience that can boost a person’s [[cognitive and personal development]].
 
 Let&#39;s [[Start]].
 </tw-passagedata><tw-passagedata pid="2" name="Dungeons &amp; Dragons" tags="" position="500,0" size="100,100">Dungeons &amp; Dragons is a fantasy tabletop role-playing game originally created and designed by Gary Gygax and Dave Arneson. The game was first published in 1974 by Tactical Studies Rules. It has been published by Wizards of the Coast since 1997. 
@@ -177,7 +274,7 @@ What do you do?.
 </tw-passagedata><tw-passagedata pid="33" name="Seeker Insight 3" tags="" position="1400,800" size="100,100">You face your fears and learn from them. Self-awareness is the key to transformation.
 
 [[Complete the Journey-&gt;The Journey Continues]]
-</tw-passagedata><tw-passagedata pid="34" name="https://doi.org/10.1016/j.sel.2025.100090" tags="" position="1425,325" size="100,100"></tw-passagedata></tw-storydata>
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
