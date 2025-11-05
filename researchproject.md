@@ -12,26 +12,7 @@ By using Farah Mendlesohn’s taxonomy of fantasy as a framework, the project ap
 Ultimately, this project argues that fantasy is much more than escapism. It is a mirror of human creativity and change. Through digital tools and literary theory, my study celebrates fantasy as a living genre that continually questions, reimagines, and rebuilds the worlds we dream about!
 
 
----
-title: Works Cited
-layout: default
----
 
-<style>
-/* Hanging indent & MLA-like spacing for readability */
-.works-cited {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  line-height: 1.8;
-  margin: 40px auto;
-  max-width: 800px;
-}
-
-.works-cited p {
-  text-indent: -1.2em;
-  padding-left: 1.2em;
-  margin-bottom: 1.5em;
-}
-</style>
 
 # Works Cited
 
