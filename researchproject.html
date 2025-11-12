@@ -2,18 +2,122 @@
     <h1>Mapping the Magic: A Digital Analysis of the Evolution of Fantasy Literature</h1>
     </div>
 
-<!--	Exported from Voyant Tools (voyant-tools.org).
-The iframe src attribute below uses a relative protocol to better function with both
-http and https sites, but if you're embedding this into a local web page (file protocol)
-you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
-it depends on this server.
-Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 753px; height: 267px;' src='https://voyant-tools.org/tool/Summary/?corpus=6ef5aad1f34d8fcf41b06774e2c27385'></iframe>
-  <div style="text-align: center;">
+<section id="voyant-summary" aria-labelledby="voyant-summary-heading" style="max-width:900px;margin:2rem auto;font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;">
+  <style>
+    #voyant-summary h2 { font-size:1.4rem; margin-bottom:0.25rem; }
+    #voyant-summary .meta { color:#555; margin-bottom:1rem; font-size:0.95rem; }
+    #voyant-summary .grid { display:grid; grid-template-columns: 1fr; gap:1rem; }
+    @media(min-width:700px){ #voyant-summary .grid { grid-template-columns: repeat(2, 1fr); } }
+    #voyant-summary table { width:100%; border-collapse:collapse; }
+    #voyant-summary th, #voyant-summary td { text-align:left; padding:0.45rem 0.5rem; border-bottom:1px solid #eee; }
+    #voyant-summary .section { background:#fafafa; padding:0.9rem; border-radius:8px; }
+    #voyant-summary .word-list { display:flex; flex-wrap:wrap; gap:0.5rem; font-weight:600; }
+    #voyant-summary .badge { background:#eee; padding:0.25rem 0.5rem; border-radius:5px; font-weight:500; }
+    #voyant-summary .doc-list { margin:0.3rem 0 0 0; padding-left:1rem; }
+    #voyant-summary .doc-list li { margin:0.25rem 0; }
+  </style>
+
+  <h2 id="voyant-summary-heading">Voyant corpus summary</h2>
+  <p class="meta">This corpus has <strong>5 documents</strong> with <strong>37,912 total words</strong> and <strong>6,790 unique word forms</strong>. <em>Created about 2 days ago.</em></p>
+
+  <div class="grid">
+    <div class="section" aria-labelledby="doc-length-heading">
+      <h3 id="doc-length-heading">Document length</h3>
+      <table>
+        <tr>
+          <th>Longest</th>
+          <td>Baker-NeedDragonsProgress… (10,486); Malone-WhatsWrongMedieval… (10,201)</td>
+        </tr>
+        <tr>
+          <th>Shortest</th>
+          <td>Attebery-IntroductionRein… (809); Mendlesohn-TowardTaxonomy… (7,476)</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section" aria-labelledby="vocab-density-heading">
+      <h3 id="vocab-density-heading">Vocabulary density</h3>
+      <table>
+        <tr>
+          <th>Highest</th>
+          <td>Attebery-IntroductionRein… (0.525); Malone-WhatsWrongMedieval… (0.282)</td>
+        </tr>
+        <tr>
+          <th>Lowest</th>
+          <td>Mendlesohn-TowardTaxonomy… (0.247); Nikolajeva-FairyTaleFanta… (0.261)</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section" aria-labelledby="avg-wps-heading">
+      <h3 id="avg-wps-heading">Average words per sentence</h3>
+      <table>
+        <tr>
+          <th>Highest</th>
+          <td>Attebery-IntroductionRein… (28.9); Mendlesohn-TowardTaxonomy… (21.1)</td>
+        </tr>
+        <tr>
+          <th>Lowest</th>
+          <td>Nikolajeva-FairyTaleFanta… (17.8); Baker-NeedDragonsProgress… (20.6)</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section" aria-labelledby="readability-heading">
+      <h3 id="readability-heading">Readability index</h3>
+      <table>
+        <tr>
+          <th>Highest</th>
+          <td>Baker-NeedDragonsProgress… (13.726); Attebery-IntroductionRein… (12.895)</td>
+        </tr>
+        <tr>
+          <th>Lowest</th>
+          <td>Malone-WhatsWrongMedieval… (11.401); Nikolajeva-FairyTaleFanta… (11.559)</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section" aria-labelledby="freq-words-heading" style="margin-top:1rem;">
+    <h3 id="freq-words-heading">Most frequent words in the corpus</h3>
+    <p class="word-list" aria-hidden="false">
+      <span class="badge">fantasy (491)</span>
+      <span class="badge">world (136)</span>
+      <span class="badge">fantastic (110)</span>
+      <span class="badge">new (101)</span>
+      <span class="badge">genre (96)</span>
+    </p>
+  </div>
+
+  <div class="section" aria-labelledby="distinctive-heading" style="margin-top:1rem;">
+    <h3 id="distinctive-heading">Distinctive words (compared to the rest of the corpus)</h3>
+
+    <ul class="doc-list" aria-labelledby="distinctive-heading">
+      <li>
+        <strong>Attebery-IntroductionRein…</strong>: dominican (4), wao (2), taylor (2), stapledon (2), sanchez (2).
+      </li>
+      <li>
+        <strong>Baker-NeedDragonsProgress…</strong>: progressive (32), capitalist (18), sf (29), print (29), utopian (23).
+      </li>
+      <li>
+        <strong>Malone-WhatsWrongMedieval…</strong>: rumata (29), medievalist (22), arkanar (19), anton (19), soviet (17).
+      </li>
+      <li>
+        <strong>Mendlesohn-TowardTaxonomy…</strong>: portal (41), immersive (38), intrusive (25), estranged (15), taxonomy (14).
+      </li>
+      <li>
+        <strong>Nikolajeva-FairyTaleFanta…</strong>: fairy (94), magical (30), tales (52), westerly (15), lyra (11).
+      </li>
+    </ul>
+  </div>
+</section>
+
+ 
+<div style="text-align: center;">
     <h1>Abstract</h1>
     </div>
 
-“Mapping the Magic: A Digital Analysis of the Evolution of Fantasy Literature” uses Voyant Tools to explore how the fantasy genre has evolved over time and how it keeps reinventing itself to reflect more modern cultural influences.. By analyzing the language and themes of the fantasy genre, this project visualizes the ways in which myths, symbols, and narrative structures shift from early fairy tales and medieval quests to modern, urban, and postmodern worlds. As Brian Attebery writes, fantasy “thrives on transformation,” constantly reshaping its boundaries to stay culturally alive (Attebery 2). Daniel Baker also reminds us that fantasy’s distance from reality allows it to “envision alternate moral and cultural frameworks,” which gives the genre its lasting power to challenge social norms (Baker 438).
+“Mapping the Magic: A Digital Close Reading of the Evolution of Fantasy Literature” uses Voyant Tools to explore how the fantasy genre has evolved over time and how it keeps reinventing itself to reflect more modern cultural influences.. By analyzing the language and themes of the fantasy genre, this project visualizes the ways in which myths, symbols, and narrative structures shift from early fairy tales and medieval quests to modern, urban, and postmodern worlds. As Brian Attebery writes, fantasy “thrives on transformation,” constantly reshaping its boundaries to stay culturally alive (Attebery 2). Daniel Baker also reminds us that fantasy’s distance from reality allows it to “envision alternate moral and cultural frameworks,” which gives the genre its lasting power to challenge social norms (Baker 438).
 
 By using Farah Mendlesohn’s taxonomy of fantasy as a framework, the project applies digital text analysis to see how “portal, immersive, and liminal narratives have blended and evolved” (Mendlesohn 170). The visualizations created in Voyant show how language connected to magic and fantastical imaginings changes as fantasy becomes more self-aware and experimental. Maria Nikolajeva describes this as a “dialogue between the archaic and the postmodern,” where new stories converse with the old ones (Nikolajeva 140). Irina Ruppo Malone’s critique of medievalism also resonates here, as her data highlights how recent works move beyond traditional European settings to include diverse and urban landscapes (Malone 206).
 
