@@ -277,17 +277,17 @@ layout: default
         <li><strong>Nikolajeva-FairyTaleFanta…</strong>: fairy (94), magical (30), tales (52), westerly (15), lyra (11)</li>
       </ul>
     </div>
-  </section> <!-- ✅ this was missing the > before -->
+  </section>
 
   <section class="image-gallery">
     <h2>Project Images</h2>
     <div class="gallery-row">
-      <figure class="gallery-item" data-img="graphdata.jpg" data-caption="Relative Frequencies Graph">
-        <img src="graphdata.jpg" alt="Line graph showing relative frequencies by document corpus" />
+      <figure class="gallery-item" data-img="{{ '/graphdata.jpg' | relative_url }}" data-caption="Relative Frequencies Graph">
+        <img src="{{ '/graphdata.jpg' | relative_url }}" alt="Line graph showing relative frequencies by document corpus" />
         <figcaption>Relative Frequencies Graph</figcaption>
       </figure>
-      <figure class="gallery-item" data-img="fantasywordcloud.jpg" data-caption="Fantasy Literature Word Cloud">
-        <img src="fantasywordcloud.jpg" alt="Word cloud for fantasy literature corpus" />
+      <figure class="gallery-item" data-img="{{ '/fantasywordcloud.jpg' | relative_url }}" data-caption="Fantasy Literature Word Cloud">
+        <img src="{{ '/fantasywordcloud.jpg' | relative_url }}" alt="Word cloud for fantasy literature corpus" />
         <figcaption>Fantasy Literature Word Cloud</figcaption>
       </figure>
     </div>
