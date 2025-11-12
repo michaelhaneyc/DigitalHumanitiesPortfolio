@@ -17,8 +17,9 @@ Ultimately, this project argues that fantasy is much more than escapism. It is a
 # Works Cited
 
 <div class="works-cited">
-
-<p>Attebery, Brian. “Introduction: Reinhabiting Fantasy.” <em>Journal of the Fantastic in the Arts</em>, vol. 25, no. 1 (90), 2014, pp. 1–2. JSTOR, <a href="http://www.jstor.org/stable/24353113" target="_blank">http://www.jstor.org/stable/24353113</a>. Accessed 23 Oct. 2025.</p>
+<div style="text-indent: -1em; padding-left: 1em;">
+    Attebery, Brian. “Introduction: Reinhabiting Fantasy.” <em>Journal of the Fantastic in the Arts</em>, vol. 25, no. 1 (90), 2014, pp. 1–2. JSTOR, <a href="http://www.jstor.org/stable/24353113" target="_blank">http://www.jstor.org/stable/24353113</a>. Accessed 23 Oct. 2025.
+</div>
 
 <p>Baker, Daniel. “Why We Need Dragons: The Progressive Potential of Fantasy.” <em>Journal of the Fantastic in the Arts</em>, vol. 23, no. 3 (86), 2012, pp. 437–59. JSTOR, <a href="http://www.jstor.org/stable/24353086" target="_blank">http://www.jstor.org/stable/24353086</a>. Accessed 22 Oct. 2025.</p>
 
